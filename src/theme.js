@@ -512,7 +512,6 @@
         updateLyricsPageProperties();
       }
     } else {
-      if (lyricsCinema && !isLyricsCinemaVisible) moveTopBarContainer('down');
       if (lyricsBackdropContainer) lyricsBackdropContainer.style.display = 'none';
     }
   }
